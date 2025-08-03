@@ -1,0 +1,3 @@
+git config --global user.name "Nome do usuário"  ==>> comando para configurar o nome do usuário na máquina
+git config --global user.email "email@gmail" ==>> comando para configurar o email na máquina
+git confi --list ==>> comando para listar as configurações do github
