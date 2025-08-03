@@ -1,3 +1,12 @@
+COMANDOS DE CONFIGURAÇÕES:
 git config --global user.name "Nome do usuário"  ==>> comando para configurar o nome do usuário na máquina
 git config --global user.email "email@gmail" ==>> comando para configurar o email na máquina
-git confi --list ==>> comando para listar as configurações do github
+git confi --list ==>> comando para listar as configurações do GitHub
+
+PASSO A PASSO: SALVAR PRIMEIRA VERSÃO DE UM PROJETO GITHUB
+git init
+git add .
+git commit -m "Mensagem explicativa"
+git branch -M main
+git remote add origin git@github.com:seuusuario/seurepositorio.git
+git push -u origin main
